@@ -1,0 +1,26 @@
+body{
+    background: #f4f4f4;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    color: #666;
+}
+
+#container{
+    width: 1200px;
+    margin: auto;
+    overflow: auto;
+    background: #fff;
+    padding: 15px;
+}
+li.titulo{
+    width: 500px;
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: #666 solid 1px;
+}
+li.estadisticas{
+    width: 80px;
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: #666 solid 1px;
+}
