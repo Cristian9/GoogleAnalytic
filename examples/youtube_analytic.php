@@ -26,7 +26,7 @@ class youtube_dta {
 
     public function __construct() {
         session_start();
-
+        
         $this->client = new Google_Client();
         $this->client->setClientId($this->OAUTH2_CLIENT_ID);
         $this->client->setClientSecret($this->OAUTH2_CLIENT_SECRET);
